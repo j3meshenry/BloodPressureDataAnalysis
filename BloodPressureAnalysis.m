@@ -74,11 +74,11 @@ bpCategories = categories(categorical(T.BP_Status));
 desiredOrder = {'NORMAL', 'ELEVATED', 'HYPERTENSION STAGE 1', 'HYPERTENSION STAGE 2', 'HYPERTENSIVE CRISIS', 'UNDEFINED'};
 
 % Colormap for categories (matrix)
-statusColors = [0 1 0;   % Green for 'NORMAL'
-                1 1 0;   % Yellow for 'ELEVATED'
-                1 0.5 0; % Orange for 'HYPERTENSION STAGE 1'
-                1 0 0;   % Red for 'HYPERTENSION STAGE 2'
-                0.5 0 0.5 % Purple for 'HYPERTENSIVE CRISIS'
+statusColors = [0 1 0;   % Green - 'NORMAL'
+                1 1 0;   % Yellow - 'ELEVATED'
+                1 0.5 0; % Orange - 'HYPERTENSION STAGE 1'
+                1 0 0;   % Red - 'HYPERTENSION STAGE 2'
+                0.5 0 0.5 % Purple - 'HYPERTENSIVE CRISIS'
                 0.7 0.7 0.7  % Gray
                 ]; 
 
@@ -127,7 +127,8 @@ grid on;
 
 %{
 
-%% GitHub Repository Link: 
+%% GitHub Repository Link:
+ https://github.com/j3meshenry/BloodPressureDataAnalysis/tree/main
 
 %% Sources/Resources 
 1. 
