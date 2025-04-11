@@ -1,8 +1,6 @@
 %{
  
-Class: CECS 271 
-
-Student: James Henry 
+Author: James Henry 
 
 Program: BloodPressureAnalysis.m
 
